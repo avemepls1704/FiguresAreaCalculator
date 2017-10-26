@@ -7,7 +7,7 @@
 double getRectangleArea(double a, double b);
 double getCircleArea(double r);
 double getSquareArea(double a);
-double getTriangleArea(double a, double h);
+double getTriangleArea(double h, double b);
 
 
 int main()
@@ -30,7 +30,8 @@ double getSquareArea(double a)
 	return a * a;
 }
 
-double getTriangleArea(double a, double h)
+double getTriangleArea(double h, double b)
 {
-	return a * h / 2;
+	return 0.5 * b * h;
 }
+
